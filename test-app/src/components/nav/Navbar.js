@@ -6,7 +6,7 @@ import { NavbarItems } from "./NavbarItems.js";
 class Navbar extends Component {
     render() {
         return(
-            <nav classname = "Navbar">
+            <nav className = "Navbar">
                 
             </nav>
         );
