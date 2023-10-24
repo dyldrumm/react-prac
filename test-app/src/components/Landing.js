@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import 'Landing.css';
 
-import Navbar from './nav/Navbar';
-import Sidebar from './nav/Sidebar';
+import './Landing.css';
+import Navbar from './nav/Navbar.js';
+import Sidebar from './nav/Sidebar.js';
 
 function Landing() {
     return(
