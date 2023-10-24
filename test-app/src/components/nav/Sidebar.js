@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
-import './Sidebar.css';
-import { SidebarItems } from "./SidebarItems.js"; 
+import "./Sidebar.css";
+import { SidebarItems } from "./SidebarItems.js";
 
 class Sidebar extends Component {
     render() {
@@ -10,12 +10,8 @@ class Sidebar extends Component {
                 <ul className = "SidebarItems">
                     {SidebarItems.map((item, index)=>{
                         return(
-                            <li key = {index}>
-                                <a href = {item.url} className = {item.cName}>
-                                    {item.title}
-                                    <i className = {item.icon}></i>
-                                </a>
-                            </li>
+                            // Text link portion of Sidebar Item
+                            <li key = {index} className = "SidebarItemLink"><a href = {item.url}>{item.title}</a></li>
                         )
                     })}
                 </ul>

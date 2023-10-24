@@ -6,13 +6,9 @@ import Sidebar from './nav/Sidebar.js';
 
 function Landing() {
     return(
-        <div classname = "LandingRoot">
-            <div classname = "Navbar">
-                <Navbar/>
-            </div>
-            <div classname = "Sidebar">
-                <Sidebar/>
-            </div>
+        <div classname = "Landing">
+            <div classname = "Navbar"><Navbar/></div>
+            <div classname = "Sidebar"><Sidebar/></div>
         </div>
     );
 }
