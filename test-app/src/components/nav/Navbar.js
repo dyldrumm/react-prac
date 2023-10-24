@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import ReactDOM from 'react-dom/client';
+
 import './Navbar.css';
+import { NavbarItems } from "./NavbarItems.js"; 
 
 class Navbar extends Component {
     render() {
