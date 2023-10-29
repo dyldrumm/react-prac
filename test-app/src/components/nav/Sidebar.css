@@ -18,7 +18,7 @@
     /* Sidebar transition & opacity */
     box-shadow: 0 5px 15px black;
     transition: all 0.27s ease-in-out;
-    opacity: 1;
+    opacity: 0.8rem;
 
     /* Anchor sidebar to left */
     position: fixed;
@@ -37,7 +37,7 @@
     background-color:darkgrey;
     box-shadow: 0 5px 15px rgba(0,0,0,0.25);
 
-    font-size: 0.9rem;
+    font-size: 0.75rem;
     font-weight: bold;
 
     /* Sidebar corner rounding */
